@@ -2,7 +2,8 @@
 # RFM metic
 # Cltv.py
 
-RFM.py--Bu kod, RFM (Recency, Frequency, Monetary) analizi kullanarak müşteri segmentasyonu gerçekleştiren bir süreci içermektedir. Aşağıda kodun yapmış olduğu işlemlerin özetini bulabilirsiniz:
+# RFM.py
+Bu kod, RFM (Recency, Frequency, Monetary) analizi kullanarak müşteri segmentasyonu gerçekleştiren bir süreci içermektedir. Aşağıda kodun yapmış olduğu işlemlerin özetini bulabilirsiniz:
 
 Verinin yüklenmesi: CSV dosyası olarak veri okunur.
 Veri anlama: Veri seti hakkında temel bilgiler elde edilir, eksik değerler kontrol edilir ve bazı istatistikler hesaplanır.
@@ -13,8 +14,8 @@ RFM segmentlerinin oluşturulması ve analiz edilmesi: RFM skorlarına göre mü
 Sonuçların kaydedilmesi: Oluşturulan RFM segmentleri ve yeni müşterilerin kimlikleri CSV dosyalarına kaydedilir.
 Kod, müşteri segmentasyonu yapmak için RFM analizinin temel adımlarını içermektedir. İlgili veri setine ve segmentasyon kriterlerine göre sonuçları analiz edebilir ve işletme için değerli bilgiler elde edebilirsiniz.
 
-############################################################################################################
-cltv.py  -  müşteri yaşam boyu değerini tahmin etmek ve müşterileri segmentlere ayırmak için kullanılan bir müşteri değerlendirme modeli olan CLTV (Customer Lifetime Value) analizini gerçekleştirir. Fonksiyon, bir veri çerçevesini ve opsiyonel olarak kar marjını girdi olarak alır.
+# cltv.py 
+müşteri yaşam boyu değerini tahmin etmek ve müşterileri segmentlere ayırmak için kullanılan bir müşteri değerlendirme modeli olan CLTV (Customer Lifetime Value) analizini gerçekleştirir. Fonksiyon, bir veri çerçevesini ve opsiyonel olarak kar marjını girdi olarak alır.
 
 Fonksiyon adımları şu şekildedir:
 
