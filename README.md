@@ -37,3 +37,37 @@ Segmentleme: CLTV'ye göre müşterileri dört farklı segmente ayırır (A, B, 
 
 Son olarak, hesaplanan değerleri içeren ve segment sütunu eklenmiş olan CLTV çerçevesini döndürür.
 müşteri değerini anlamak, müşterileri segmentlere ayırmak ve pazarlama stratejilerini yönlendirmek için kullanılabilir. Örneğin, en yüksek CLTV'ye sahip müşteriler (A segmenti) daha fazla odaklanılabilir ve sadakat programları veya kişiselleştirilmiş teklifler gibi stratejilerle müşteri bağlılığı artırılabilir.
+
+
+# cltv.predict.py
+Bu kod, müşteri yaşam süresi değerini tahmin etmek ve müşterileri segmentlere ayırmak için kullanılan bir müşteri değeri tahmin modeli olan CLTV (Customer Lifetime Value) modelini oluşturmak için kullanılır.
+
+Kodun işleyişini adım adım açıklayalım:
+
+Veri Ön İşleme:
+
+NaN değerleri içeren satırlar düşürülür.
+"Invoice" sütununda "C" harfi içeren (iptal edilen) işlemler çıkarılır.
+"Quantity" sütununda 0'dan küçük değerlere sahip satırlar çıkarılır.
+"Price" sütununda 0'dan küçük değerlere sahip satırlar çıkarılır.
+"Quantity" sütunundaki aykırı değerler, belirlenen eşik değerlerle değiştirilir.
+"Price" sütunundaki aykırı değerler, belirlenen eşik değerlerle değiştirilir.
+"TotalPrice" adında yeni bir sütun oluşturulur ve "Quantity" ile "Price" sütunlarının çarpımıyla hesaplanır.
+Bugünün tarihini temsil eden bir değişken tanımlanır.
+BG-NBD Modelinin Kurulması:
+
+BetaGeoFitter sınıfı kullanılarak BG-NBD modeli kurulur.
+Model, frekans, recency ve T değerleri kullanılarak eğitilir.
+Model üzerinden 1 haftalık, 1 aylık ve 3 aylık beklenen satın alma değerleri hesaplanır.
+GAMMA-GAMMA Modelinin Kurulması:
+
+GammaGammaFitter sınıfı kullanılarak GG modeli kurulur.
+Model, frekans ve monetary değerleri kullanılarak eğitilir.
+Model üzerinden beklenen ortalama kar hesaplanır.
+BG-NBD ve GG modeli ile CLTV'nin hesaplanması:
+
+GammaGammaFitter sınıfının customer_lifetime_value() yöntemi kullanılarak müşteri yaşam süresi değeri (CLTV) hesaplanır.
+Hesaplanan CLTV değerleri, müşteri kimlik numarasıyla birleştirilen ve segmentlere ayrılan bir DataFrame'e aktarılır.
+Son olarak, cltv_final2 DataFrame'i "cltv_prediction.csv" adlı bir CSV dosyasına kaydedilir.
+
+Bu kod, müşterilerin değerlerini tahmin etmek ve onları segmentlere ayırmak için kullanılan bir modelin işleyişini göstermektedir. Özellikle müşteri değerlemesi ve müşteri segmentasyonu gibi konularla ilgilenenler için faydalı olabilir.
