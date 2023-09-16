@@ -2,6 +2,7 @@
 ![App Screenshot](https://github.com/firengizz099/CRM/blob/main/CRM.png?raw=true)
 
 # RFM metic
+
 ![App Screenshot](https://github.com/firengizz099/CRM/blob/main/Rfm.png?raw=true)
 
 # Cltv.py  CUSTOMER LIFETIME VALUE (Müşteri Yaşam Boyu Değeri)
