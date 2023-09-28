@@ -28,7 +28,7 @@
 
 **Ortalama Sipariş Değeri (avg_order_value) Hesaplama: Müşterinin toplam fiyatını toplam işlem sayısına bölerek ortalama sipariş değerini hesaplar.**
 
-Satın Alma Sıklığı (purchase_frequency) Hesaplama: Müşterinin toplam işlem sayısını müşteri sayısına bölerek satın alma sıklığını hesaplar.
+**Satın Alma Sıklığı (purchase_frequency) Hesaplama: Müşterinin toplam işlem sayısını müşteri sayısına bölerek satın alma sıklığını hesaplar.**
 
 Tekrar Oranı ve Kayıp Oranı Hesaplama: Birden fazla işlemi olan müşterilerin oranını toplam müşteri sayısına böler ve tekrar oranını hesaplar. Buna karşılık, kayıp oranını da hesaplar.
 
