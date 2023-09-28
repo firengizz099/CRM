@@ -20,7 +20,7 @@
 **Kod, müşteri segmentasyonu yapmak için RFM analizinin temel adımlarını içermektedir. İlgili veri setine ve segmentasyon kriterlerine göre sonuçları analiz edebilir ve işletme için değerli bilgiler elde edebilirsiniz.**
 
 # cltv.py 
-müşteri yaşam boyu değerini tahmin etmek ve müşterileri segmentlere ayırmak için kullanılan bir müşteri değerlendirme modeli olan CLTV (Customer Lifetime Value) analizini gerçekleştirir. Fonksiyon, bir veri çerçevesini ve opsiyonel olarak kar marjını girdi olarak alır.
+**müşteri yaşam boyu değerini tahmin etmek ve müşterileri segmentlere ayırmak için kullanılan bir müşteri değerlendirme modeli olan CLTV (Customer Lifetime Value) analizini gerçekleştirir. Fonksiyon, bir veri çerçevesini ve opsiyonel olarak kar marjını girdi olarak alır.**
 
 Fonksiyon adımları şu şekildedir:
 
