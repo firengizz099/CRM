@@ -24,7 +24,7 @@
 
 **Fonksiyon adımları şu şekildedir:**
 
-Veri Hazırlama: İptal edilen işlemleri (Invoice sütunu içinde "C" içeren satırları) ve negatif miktarları (Quantity sütunu içinde 0'dan küçük olanları) filtreler ve eksik verileri kaldırır. Ardından, her müşteri için toplam işlem sayısını, toplam birimi ve toplam fiyatı hesaplar.
+**Veri Hazırlama: İptal edilen işlemleri (Invoice sütunu içinde "C" içeren satırları) ve negatif miktarları (Quantity sütunu içinde 0'dan küçük olanları) filtreler ve eksik verileri kaldırır. Ardından, her müşteri için toplam işlem sayısını, toplam birimi ve toplam fiyatı hesaplar.**
 
 Ortalama Sipariş Değeri (avg_order_value) Hesaplama: Müşterinin toplam fiyatını toplam işlem sayısına bölerek ortalama sipariş değerini hesaplar.
 
