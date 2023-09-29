@@ -37,7 +37,7 @@
 
 **Müşteri Yaşam Boyu Değeri (cltv) Hesaplama: Müşteri değerini kayıp oranına böler ve kar marjı ile çarparak müşteri yaşam boyu değerini hesaplar.**
 
-Segmentleme: CLTV'ye göre müşterileri dört farklı segmente ayırır (A, B, C, D).
+**Segmentleme: CLTV'ye göre müşterileri dört farklı segmente ayırır (A, B, C, D).**
 
 Son olarak, hesaplanan değerleri içeren ve segment sütunu eklenmiş olan CLTV çerçevesini döndürür.
 müşteri değerini anlamak, müşterileri segmentlere ayırmak ve pazarlama stratejilerini yönlendirmek için kullanılabilir. Örneğin, en yüksek CLTV'ye sahip müşteriler (A segmenti) daha fazla odaklanılabilir ve sadakat programları veya kişiselleştirilmiş teklifler gibi stratejilerle müşteri bağlılığı artırılabilir.
