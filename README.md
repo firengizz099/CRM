@@ -45,7 +45,7 @@
 # cltv.predict.py
 **Bu kod, müşteri yaşam süresi değerini tahmin etmek ve müşterileri segmentlere ayırmak için kullanılan bir müşteri değeri tahmin modeli olan CLTV (Customer Lifetime Value) modelini oluşturmak için kullanılır.**
 
-Kodun işleyişini adım adım açıklayalım:
+**Kodun işleyişini adım adım açıklayalım:**
 
 Veri Ön İşleme:
 NaN değerleri içeren satırlar düşürülür.
