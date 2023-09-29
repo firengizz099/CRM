@@ -50,7 +50,7 @@
 **Veri Ön İşleme:**
 **NaN değerleri içeren satırlar düşürülür.**
 **"Invoice" sütununda "C" harfi içeren (iptal edilen) işlemler çıkarılır.**
-"Quantity" sütununda 0'dan küçük değerlere sahip satırlar çıkarılır.
+**"Quantity" sütununda 0'dan küçük değerlere sahip satırlar çıkarılır.**
 "Price" sütununda 0'dan küçük değerlere sahip satırlar çıkarılır.
 "Quantity" sütunundaki aykırı değerler, belirlenen eşik değerlerle değiştirilir.
 "Price" sütunundaki aykırı değerler, belirlenen eşik değerlerle değiştirilir.
