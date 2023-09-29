@@ -52,7 +52,7 @@
 **"Invoice" sütununda "C" harfi içeren (iptal edilen) işlemler çıkarılır.**
 **"Quantity" sütununda 0'dan küçük değerlere sahip satırlar çıkarılır.**
 **"Price" sütununda 0'dan küçük değerlere sahip satırlar çıkarılır.**
-"Quantity" sütunundaki aykırı değerler, belirlenen eşik değerlerle değiştirilir.
+**"Quantity" sütunundaki aykırı değerler, belirlenen eşik değerlerle değiştirilir.**
 "Price" sütunundaki aykırı değerler, belirlenen eşik değerlerle değiştirilir.
 "TotalPrice" adında yeni bir sütun oluşturulur ve "Quantity" ile "Price" sütunlarının çarpımıyla hesaplanır.
 Bugünün tarihini temsil eden bir değişken tanımlanır.
