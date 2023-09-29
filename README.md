@@ -39,7 +39,7 @@
 
 **Segmentleme: CLTV'ye göre müşterileri dört farklı segmente ayırır (A, B, C, D).**
 
-Son olarak, hesaplanan değerleri içeren ve segment sütunu eklenmiş olan CLTV çerçevesini döndürür.
+**Son olarak, hesaplanan değerleri içeren ve segment sütunu eklenmiş olan CLTV çerçevesini döndürür.**
 müşteri değerini anlamak, müşterileri segmentlere ayırmak ve pazarlama stratejilerini yönlendirmek için kullanılabilir. Örneğin, en yüksek CLTV'ye sahip müşteriler (A segmenti) daha fazla odaklanılabilir ve sadakat programları veya kişiselleştirilmiş teklifler gibi stratejilerle müşteri bağlılığı artırılabilir.
 
 # cltv.predict.py
