@@ -72,4 +72,4 @@ Bugünün tarihini temsil eden bir değişken tanımlanır.**
 **Hesaplanan CLTV değerleri, müşteri kimlik numarasıyla birleştirilen ve segmentlere ayrılan bir DataFrame'e aktarılır.**
 **Son olarak, cltv_final2 DataFrame'i "cltv_prediction.csv" adlı bir CSV dosyasına kaydedilir.**
 
-**Bu kod, müşterilerin değerlerini tahmin etmek ve onları segmentlere ayırmak için kullanılan bir modelin işleyişini göstermektedir.** Özellikle müşteri değerlemesi ve müşteri segmentasyonu gibi konularla ilgilenenler için faydalı olabilir.
+**Bu kod, müşterilerin değerlerini tahmin etmek ve onları segmentlere ayırmak için kullanılan bir modelin işleyişini göstermektedir. Özellikle müşteri değerlemesi ve müşteri segmentasyonu gibi konularla ilgilenenler için faydalı olabilir.**
