@@ -31,7 +31,7 @@ Satın Alma Sıklığı (purchase_frequency) Hesaplama: Müşterinin toplam işl
 
 Tekrar Oranı ve Kayıp Oranı Hesaplama: Birden fazla işlemi olan müşterilerin oranını toplam müşteri sayısına böler ve tekrar oranını hesaplar. Buna karşılık, kayıp oranını da hesaplar.
 
-**Kar Marjı Hesaplama: Toplam fiyatı kar marjı ile çarparak kar marjını hesaplar.**
+Kar Marjı Hesaplama: Toplam fiyatı kar marjı ile çarparak kar marjını hesaplar.
 **Müşteri Değeri (customer_value) Hesaplama: Ortalama sipariş değerini satın alma sıklığı ile çarparak müşteri değerini hesaplar.**
 
 **Müşteri Yaşam Boyu Değeri (cltv) Hesaplama: Müşteri değerini kayıp oranına böler ve kar marjı ile çarparak müşteri yaşam boyu değerini hesaplar.**
