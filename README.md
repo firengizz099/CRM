@@ -29,7 +29,7 @@ Veri Hazırlama: İptal edilen işlemleri (Invoice sütunu içinde "C" içeren s
 Ortalama Sipariş Değeri (avg_order_value) Hesaplama: Müşterinin toplam fiyatını toplam işlem sayısına bölerek ortalama sipariş değerini hesaplar.
 Satın Alma Sıklığı (purchase_frequency) Hesaplama: Müşterinin toplam işlem sayısını müşteri sayısına bölerek satın alma sıklığını hesaplar.
 
-**Tekrar Oranı ve Kayıp Oranı Hesaplama: Birden fazla işlemi olan müşterilerin oranını toplam müşteri sayısına böler ve tekrar oranını hesaplar. Buna karşılık, kayıp oranını da hesaplar.**
+Tekrar Oranı ve Kayıp Oranı Hesaplama: Birden fazla işlemi olan müşterilerin oranını toplam müşteri sayısına böler ve tekrar oranını hesaplar. Buna karşılık, kayıp oranını da hesaplar.
 
 **Kar Marjı Hesaplama: Toplam fiyatı kar marjı ile çarparak kar marjını hesaplar.**
 **Müşteri Değeri (customer_value) Hesaplama: Ortalama sipariş değerini satın alma sıklığı ile çarparak müşteri değerini hesaplar.**
