@@ -47,7 +47,7 @@ Bu kod, müşteri yaşam süresi değerini tahmin etmek ve müşterileri segment
 Kodun işleyişini adım adım açıklayalım:
 
 **Veri Ön İşleme:**
-**NaN değerleri içeren satırlar düşürülür.**
+NaN değerleri içeren satırlar düşürülür.
 **"Invoice" sütununda "C" harfi içeren (iptal edilen) işlemler çıkarılır.**
 **"Quantity" sütununda 0'dan küçük değerlere sahip satırlar çıkarılır.**
 **"Price" sütununda 0'dan küçük değerlere sahip satırlar çıkarılır.**
