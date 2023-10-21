@@ -62,7 +62,7 @@ Model, frekans, recency ve T değerleri kullanılarak eğitilir.
 Model üzerinden 1 haftalık, 1 aylık ve 3 aylık beklenen satın alma değerleri hesaplanır.
 GAMMA-GAMMA Modelinin Kurulması:
 
-**GammaGammaFitter sınıfı kullanılarak GG modeli kurulur.**
+GammaGammaFitter sınıfı kullanılarak GG modeli kurulur.
 **Model, frekans ve monetary değerleri kullanılarak eğitilir.**
 **Model üzerinden beklenen ortalama kar hesaplanır.**
 **BG-NBD ve GG modeli ile CLTV'nin hesaplanması:**
