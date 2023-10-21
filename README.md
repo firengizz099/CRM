@@ -60,7 +60,7 @@ Bugünün tarihini temsil eden bir değişken tanımlanır.
 BetaGeoFitter sınıfı kullanılarak BG-NBD modeli kurulur.
 Model, frekans, recency ve T değerleri kullanılarak eğitilir.
 Model üzerinden 1 haftalık, 1 aylık ve 3 aylık beklenen satın alma değerleri hesaplanır.
-**GAMMA-GAMMA Modelinin Kurulması:**
+GAMMA-GAMMA Modelinin Kurulması:
 
 **GammaGammaFitter sınıfı kullanılarak GG modeli kurulur.**
 **Model, frekans ve monetary değerleri kullanılarak eğitilir.**
