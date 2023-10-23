@@ -12,7 +12,7 @@
 
 **Verinin yüklenmesi: CSV dosyası olarak veri okunur.**
 **Veri anlama: Veri seti hakkında temel bilgiler elde edilir, eksik değerler kontrol edilir ve bazı istatistikler hesaplanır.**
-Veri hazırlama: İptal edilen işlemler ve eksik değerler veri setinden çıkarılır.
+**Veri hazırlama: İptal edilen işlemler ve eksik değerler veri setinden çıkarılır.**
 RFM metriklerinin hesaplanması: Recency, Frequency ve Monetary metrikleri hesaplanır.
 RFM skorlarının hesaplanması: RFM metriklerine dayanarak RFM skorları oluşturulur.
 RFM segmentlerinin oluşturulması ve analiz edilmesi: RFM skorlarına göre müşteriler segmentlere ayrılır ve segmentlere özgü istatistikler elde edilir.
