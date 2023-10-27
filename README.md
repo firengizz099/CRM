@@ -8,7 +8,7 @@
 # Cltv.py  CUSTOMER LIFETIME VALUE (Müşteri Yaşam Boyu Değeri)
 
 # RFM.py
-**Bu kod, RFM (Recency, Frequency, Monetary) analizi kullanarak müşteri segmentasyonu gerçekleştiren bir süreci içermektedir. Aşağıda kodun yapmış olduğu işlemlerin özetini bulabilirsiniz:**
+Bu kod, RFM (Recency, Frequency, Monetary) analizi kullanarak müşteri segmentasyonu gerçekleştiren bir süreci içermektedir. Aşağıda kodun yapmış olduğu işlemlerin özetini bulabilirsiniz:
 
 **Verinin yüklenmesi: CSV dosyası olarak veri okunur.**
 Veri anlama: Veri seti hakkında temel bilgiler elde edilir, eksik değerler kontrol edilir ve bazı istatistikler hesaplanır.
