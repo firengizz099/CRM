@@ -30,12 +30,12 @@ Veri Hazırlama: İptal edilen işlemleri (Invoice sütunu içinde "C" içeren s
 
 **Tekrar Oranı ve Kayıp Oranı Hesaplama: Birden fazla işlemi olan müşterilerin oranını toplam müşteri sayısına böler ve tekrar oranını hesaplar. Buna karşılık, kayıp oranını da hesaplar.**
 
-Kar Marjı Hesaplama: Toplam fiyatı kar marjı ile çarparak kar marjını hesaplar.
-Müşteri Değeri (customer_value) Hesaplama: Ortalama sipariş değerini satın alma sıklığı ile çarparak müşteri değerini hesaplar.
+**Kar Marjı Hesaplama: Toplam fiyatı kar marjı ile çarparak kar marjını hesaplar.**
+**Müşteri Değeri (customer_value) Hesaplama: Ortalama sipariş değerini satın alma sıklığı ile çarparak müşteri değerini hesaplar.**
 
-Müşteri Yaşam Boyu Değeri (cltv) Hesaplama: Müşteri değerini kayıp oranına böler ve kar marjı ile çarparak müşteri yaşam boyu değerini hesaplar.
+**Müşteri Yaşam Boyu Değeri (cltv) Hesaplama: Müşteri değerini kayıp oranına böler ve kar marjı ile çarparak müşteri yaşam boyu değerini hesaplar.**
 
-Segmentleme: CLTV'ye göre müşterileri dört farklı segmente ayırır (A, B, C, D).
+**Segmentleme: CLTV'ye göre müşterileri dört farklı segmente ayırır (A, B, C, D).**
 
 Son olarak, hesaplanan değerleri içeren ve segment sütunu eklenmiş olan CLTV çerçevesini döndürür.
 müşteri değerini anlamak, müşterileri segmentlere ayırmak ve pazarlama stratejilerini yönlendirmek için kullanılabilir. Örneğin, en yüksek CLTV'ye sahip müşteriler (A segmenti) daha fazla odaklanılabilir ve sadakat programları veya kişiselleştirilmiş teklifler gibi stratejilerle müşteri bağlılığı artırılabilir.
