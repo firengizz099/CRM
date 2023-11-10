@@ -36,8 +36,8 @@ Veri Hazırlama: İptal edilen işlemleri (Invoice sütunu içinde "C" içeren s
 
 **Segmentleme: CLTV'ye göre müşterileri dört farklı segmente ayırır (A, B, C, D).**
 
-Son olarak, hesaplanan değerleri içeren ve segment sütunu eklenmiş olan CLTV çerçevesini döndürür.
-müşteri değerini anlamak, müşterileri segmentlere ayırmak ve pazarlama stratejilerini yönlendirmek için kullanılabilir. Örneğin, en yüksek CLTV'ye sahip müşteriler (A segmenti) daha fazla odaklanılabilir ve sadakat programları veya kişiselleştirilmiş teklifler gibi stratejilerle müşteri bağlılığı artırılabilir.
+**Son olarak, hesaplanan değerleri içeren ve segment sütunu eklenmiş olan CLTV çerçevesini döndürür.
+müşteri değerini anlamak, müşterileri segmentlere ayırmak ve pazarlama stratejilerini yönlendirmek için kullanılabilir. Örneğin, en yüksek CLTV'ye sahip müşteriler (A segmenti) daha fazla odaklanılabilir ve sadakat programları veya kişiselleştirilmiş teklifler gibi stratejilerle müşteri bağlılığı artırılabilir.**
 
 # cltv.predict.py
 Bu kod, müşteri yaşam süresi değerini tahmin etmek ve müşterileri segmentlere ayırmak için kullanılan bir müşteri değeri tahmin modeli olan CLTV (Customer Lifetime Value) modelini oluşturmak için kullanılır.
