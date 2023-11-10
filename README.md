@@ -21,8 +21,7 @@ Bu kod, RFM (Recency, Frequency, Monetary) analizi kullanarak müşteri segmenta
 
 # cltv.py 
 **müşteri yaşam boyu değerini tahmin etmek ve müşterileri segmentlere ayırmak için kullanılan bir müşteri değerlendirme modeli olan CLTV (Customer Lifetime Value) analizini gerçekleştirir. Fonksiyon, bir veri çerçevesini ve opsiyonel olarak kar marjını girdi olarak alır.**
-
-Fonksiyon adımları şu şekildedir:
+**Fonksiyon adımları şu şekildedir:**
 Veri Hazırlama: İptal edilen işlemleri (Invoice sütunu içinde "C" içeren satırları) ve negatif miktarları (Quantity sütunu içinde 0'dan küçük olanları) filtreler ve eksik verileri kaldırır. Ardından, her müşteri için toplam işlem sayısını, toplam birimi ve toplam fiyatı hesaplar.
 
 **Ortalama Sipariş Değeri (avg_order_value) Hesaplama: Müşterinin toplam fiyatını toplam işlem sayısına bölerek ortalama sipariş değerini hesaplar.**
