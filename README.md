@@ -45,7 +45,7 @@ müşteri değerini anlamak, müşterileri segmentlere ayırmak ve pazarlama str
 **Kodun işleyişini adım adım açıklayalım:**
 
 **Veri Ön İşleme:**
-NaN değerleri içeren satırlar düşürülür.
+**NaN değerleri içeren satırlar düşürülür.**
 "Invoice" sütununda "C" harfi içeren (iptal edilen) işlemler çıkarılır.
 "Quantity" sütununda 0'dan küçük değerlere sahip satırlar çıkarılır.
 "Price" sütununda 0'dan küçük değerlere sahip satırlar çıkarılır.
