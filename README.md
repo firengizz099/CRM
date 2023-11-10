@@ -17,7 +17,7 @@ Bu kod, RFM (Recency, Frequency, Monetary) analizi kullanarak müşteri segmenta
 **RFM skorlarının hesaplanması: RFM metriklerine dayanarak RFM skorları oluşturulur.**
 **RFM segmentlerinin oluşturulması ve analiz edilmesi: RFM skorlarına göre müşteriler segmentlere ayrılır ve segmentlere özgü istatistikler elde edilir.**
 **Sonuçların kaydedilmesi: Oluşturulan RFM segmentleri ve yeni müşterilerin kimlikleri CSV dosyalarına kaydedilir.**
-Kod, müşteri segmentasyonu yapmak için RFM analizinin temel adımlarını içermektedir. İlgili veri setine ve segmentasyon kriterlerine göre sonuçları analiz edebilir ve işletme için değerli bilgiler elde edebilirsiniz.
+**Kod, müşteri segmentasyonu yapmak için RFM analizinin temel adımlarını içermektedir. İlgili veri setine ve segmentasyon kriterlerine göre sonuçları analiz edebilir ve işletme için değerli bilgiler elde edebilirsiniz.**
 
 # cltv.py 
 müşteri yaşam boyu değerini tahmin etmek ve müşterileri segmentlere ayırmak için kullanılan bir müşteri değerlendirme modeli olan CLTV (Customer Lifetime Value) analizini gerçekleştirir. Fonksiyon, bir veri çerçevesini ve opsiyonel olarak kar marjını girdi olarak alır.
