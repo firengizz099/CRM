@@ -53,7 +53,7 @@ NaN değerleri içeren satırlar düşürülür.
 "TotalPrice" adında yeni bir sütun oluşturulur ve "Quantity" ile "Price" sütunlarının çarpımıyla hesaplanır.
 Bugünün tarihini temsil eden bir değişken tanımlanır.
 
-**BG-NBD Modelinin Kurulması:**
+BG-NBD Modelinin Kurulması:
 **BetaGeoFitter sınıfı kullanılarak BG-NBD modeli kurulur.**
 Model, frekans, recency ve T değerleri kullanılarak eğitilir.
 Model üzerinden 1 haftalık, 1 aylık ve 3 aylık beklenen satın alma değerleri hesaplanır.
