@@ -65,6 +65,6 @@ BG-NBD ve GG modeli ile CLTV'nin hesaplanması:
 
 GammaGammaFitter sınıfının customer_lifetime_value() yöntemi kullanılarak müşteri yaşam süresi değeri (CLTV) hesaplanır.
 Hesaplanan CLTV değerleri, müşteri kimlik numarasıyla birleştirilen ve segmentlere ayrılan bir DataFrame'e aktarılır.
-**Son olarak, cltv_final2 DataFrame'i "cltv_prediction.csv" adlı bir CSV dosyasına kaydedilir.**
+Son olarak, cltv_final2 DataFrame'i "cltv_prediction.csv" adlı bir CSV dosyasına kaydedilir.
 
 **Bu kod, müşterilerin değerlerini tahmin etmek ve onları segmentlere ayırmak için kullanılan bir modelin işleyişini göstermektedir. Özellikle müşteri değerlemesi ve müşteri segmentasyonu gibi konularla ilgilenenler için faydalı olabilir.**
